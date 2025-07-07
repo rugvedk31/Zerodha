@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Navbar() {
     return ( 
@@ -19,16 +19,16 @@ function Navbar() {
                             <a className="nav-link active text-muted" aria-current="page" href="/">Sign Up</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-muted" href="/">About</a>
+                            <a className="nav-link active text-muted" href="/about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-muted" href="/">Product</a>
+                            <a className="nav-link active text-muted" href="/product">Product</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-muted" href="/">Pricing</a>
+                            <a className="nav-link active text-muted" href="/pricing">Pricing</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active text-muted" href="/">Support</a>
+                            <a className="nav-link active text-muted" href="/support">Support</a>
                         </li>
                     </ul>
                 </div>
