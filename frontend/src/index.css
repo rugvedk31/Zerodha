@@ -15,3 +15,15 @@ code {
 .nav-link{
   margin-left: 40px;
 }
+
+.page-container {
+  padding-top: 100px; /* adjust based on navbar height */
+}
+
+.profile-pic {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover;
+  margin-bottom: 10px;
+}
