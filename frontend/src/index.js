@@ -10,6 +10,7 @@ import Navbar from './landing_pages/Navbar';
 import HomePage from './landing_pages/home/HomePage';
 // ...existing code...
 import AboutPage from './landing_pages/about/AboutPage';
+import ProductPage from './landing_pages/products/ProductPage';
 // ...existing code...
 // import Product from './products/Product';
 // import Pricing from './home/Pricing';
@@ -23,7 +24,7 @@ root.render(
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
-        {/* <Route path="/product" element={<Product />} /> */}
+        <Route path="/product" element={<ProductPage />} />
         {/* <Route path="/pricing" element={<Pricing />} /> */}
         {/* <Route path="/support" element={<Support />} /> */}
       </Routes>
