@@ -27,3 +27,9 @@ code {
   object-fit: cover;
   margin-bottom: 10px;
 }
+
+.universe-pics
+{
+  width : 190px;
+  height: auto;
+}
